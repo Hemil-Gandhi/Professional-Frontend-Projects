@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  background-color: #ffd43b;
+  padding: 15px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+h1 {
+  grid-column: 2/3;
+}
+.icon {
+  fill: white;
+}
+.login {
+  stroke: #15aabf;
+}
+.login-button {
+  width: 80px;
+  height: 50px;
+  grid-column: -1;
+  background-color: #ced4da;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #868e96;
+  border: 2px solid #f76707;
+  border-radius: 15px;
+}
+section {
+  background-color: #f59f00;
+  border-radius: 15px;
+  height: 550px;
+}
+.icons {
+  width: 24px;
+  height: 24px;
+}
+/*football-box*/
+.sports-colomn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  text-align: center;
+}
+.sports-box {
+  padding: 16px;
+}
+.sports-details {
+  list-style: none;
+  margin-bottom: 56px;
+}
+.sports-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.eqvipment {
+  margin-top: 20px;
+  width: 250px;
+  height: 430px;
+  box-shadow: 0 20px 30px 0 #1971c2;
+  border-radius: 12px;
+  background-color: #a5d8ff;
+}
+.price-button {
+  padding: 5px;
+  margin-top: 5px;
+}
+.price-button:link,
+.price-button:visited {
+  background-color: #22b8cf;
+  color: #003366;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.price-button:hover,
+.price-button:active {
+  background-color: #4263eb;
+}
+img {
+  width: 80%;
+  height: 50%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.price {
+  font-size: 20px;
+}
